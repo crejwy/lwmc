@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwmc.mapper.DimDepartmentMapper" >
+  <resultMap id="BaseResultMap" type="com.lwmc.entity.DimDepartment" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DeptNo" property="deptno" jdbcType="VARCHAR" />
+    <result column="Name" property="name" jdbcType="VARCHAR" />
+    <result column="Creator" property="creator" jdbcType="VARCHAR" />
+    <result column="CreateDT" property="createdt" jdbcType="TIMESTAMP" />
+    <result column="PrintOrder" property="printorder" jdbcType="TINYINT" />
+    <result column="IsUsing" property="isusing" jdbcType="BIT" />
+    <result column="IsDeleted" property="isdeleted" jdbcType="BIT" />
+    <result column="Modifier" property="modifier" jdbcType="VARCHAR" />
+    <result column="ModifyDT" property="modifydt" jdbcType="DATE" />
+  </resultMap>
+</mapper>

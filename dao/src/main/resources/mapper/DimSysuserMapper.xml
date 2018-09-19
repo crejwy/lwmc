@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwmc.mapper.DimSysuserMapper" >
+  <resultMap id="BaseResultMap" type="com.lwmc.entity.DimSysuser" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Username" property="username" jdbcType="VARCHAR" />
+    <result column="Password" property="password" jdbcType="VARCHAR" />
+    <result column="DeptNo" property="deptno" jdbcType="VARCHAR" />
+    <result column="StaffNo" property="staffno" jdbcType="VARCHAR" />
+    <result column="StaffName" property="staffname" jdbcType="VARCHAR" />
+    <result column="StaffTitle" property="stafftitle" jdbcType="VARCHAR" />
+    <result column="Memo" property="memo" jdbcType="VARCHAR" />
+    <result column="Telephone" property="telephone" jdbcType="VARCHAR" />
+    <result column="Avatar" property="avatar" jdbcType="VARCHAR" />
+    <result column="DefaultTheme" property="defaulttheme" jdbcType="INTEGER" />
+    <result column="Creator" property="creator" jdbcType="VARCHAR" />
+    <result column="CreateDT" property="createdt" jdbcType="TIMESTAMP" />
+    <result column="Modifier" property="modifier" jdbcType="VARCHAR" />
+    <result column="ModifyDT" property="modifydt" jdbcType="TIMESTAMP" />
+    <result column="RoleId" property="roleid" jdbcType="INTEGER" />
+    <result column="IsDeleted" property="isdeleted" jdbcType="BIT" />
+  </resultMap>
+</mapper>

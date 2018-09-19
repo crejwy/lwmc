@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwmc.mapper.DimCommoncodeMapper" >
+  <resultMap id="BaseResultMap" type="com.lwmc.entity.DimCommoncode" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ItemNo" property="itemno" jdbcType="SMALLINT" />
+    <result column="ItemName" property="itemname" jdbcType="VARCHAR" />
+    <result column="ItemType" property="itemtype" jdbcType="TINYINT" />
+    <result column="TypeName" property="typename" jdbcType="VARCHAR" />
+    <result column="Creator" property="creator" jdbcType="VARCHAR" />
+    <result column="CreateDT" property="createdt" jdbcType="DATE" />
+    <result column="Modifier" property="modifier" jdbcType="VARCHAR" />
+    <result column="ModifyDT" property="modifydt" jdbcType="DATE" />
+    <result column="IsDeleted" property="isdeleted" jdbcType="BIT" />
+  </resultMap>
+</mapper>
